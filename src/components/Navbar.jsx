@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
+  border-bottom: 1px solid black;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -63,7 +64,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Logo>TEST.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
