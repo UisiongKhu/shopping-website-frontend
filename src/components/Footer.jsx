@@ -37,7 +37,7 @@ const Footer = () => {
         <Button>Service</Button>
         <Button>Ya</Button>
       </ButtonContainer>
-      <Copyright>copyright © HTM. all rights reserved</Copyright>
+      <Copyright>copyright © NFU. all rights reserved</Copyright>
     </Container>
   )
 };

@@ -4,8 +4,12 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
+width: 100%;
+background-color: #fff;
   height: 60px;
+  z-index: 9999;
   border-bottom: 1px solid black;
+  position: fixed;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -64,7 +68,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>TEST.</Logo>
+          <Logo>我的超人.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

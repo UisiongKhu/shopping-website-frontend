@@ -3,8 +3,12 @@ import styled from 'styled-components'
 import apple from '../img/apple.png'
 
 const Container = styled.div`
-    border: 1px solid gray;
+    border: 1px solid #909090;
+    border-radius: 10px;
     padding: .5rem .5rem;
+    :hover{
+        transform: translateY(-3px);
+    }
 `
 const Image = styled.img`
 
@@ -27,7 +31,6 @@ const Commodity = (props) => {
             <Name>
                 <a href="/">{props.info[0]}</a>
             </Name>
-            {console.log(props.info[1])}
             <Price>${props.format(props.info[1])}</Price>
         </Container>
     )

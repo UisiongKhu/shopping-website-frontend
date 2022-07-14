@@ -11,6 +11,14 @@ const Container = styled.div`
     gap:1rem;
 `
 
+const Title = styled.h2`
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: .3rem;
+    width:80%;
+    border-bottom: 1px solid black;
+`
+
 const Category = [ 
     'Clothes',
     'Pants',
@@ -22,6 +30,7 @@ const Category = [
 const Sidebar = () => {
     return (
         <Container>
+            <Title>分類列表</Title>
             {Category.map((category) => {return <Item name={category}></Item>})}
         </Container>
     )
